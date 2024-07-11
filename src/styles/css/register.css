@@ -1,0 +1,16 @@
+
+.container{
+    background-color: bisque;
+    max-width: 720px;
+    width: 100%;
+}
+.register-footer{
+    display: flex;
+    gap: 10px;
+}
+.form-section{
+    display: flex;
+}
+.form-control{
+    width: fit-content;
+}

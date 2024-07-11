@@ -1,0 +1,59 @@
+.delete-modal-container {
+    border: 1px solid #CECECE;
+    border-radius: 12px;
+    max-width: 573px;
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    background-color: white;
+    right: 0;
+  }
+.delete-modal-close{
+    display: flex;
+    justify-content: flex-end;
+}
+#close-btn{
+    border: none;
+    background-color: white;
+}
+.delete-modal-content{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border: none;
+    align-items: center;
+}
+.delete-modal-footer{
+    display: flex;
+    gap: 12px;
+}
+#delete-modal-cancel{
+    border: 1px solid #D0D5DD;
+    background-color: white;
+    color: #7E7E7F;
+    font-size: 16px;
+    font-weight: 500;
+}
+#delete-modal-confirm{
+    background-color: #C0070B;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+.delete-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #09174A;
+    margin: 0;
+}
+.delete-message{
+    font-size: 16px;
+    font-weight: 500;
+    color: #09174A;
+    margin: 0;
+}

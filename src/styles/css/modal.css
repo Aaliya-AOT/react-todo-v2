@@ -1,0 +1,114 @@
+.modal-container {
+    border: 1px solid #CECECE;
+    border-radius: 12px;
+    max-width: 573px;
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    background-color: white;
+    right: 0;
+  }
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 24px 0px;
+    border-bottom: 1px solid #D0D5DD;
+    align-items: center;
+  }
+  .modal-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #09174A;
+    margin: 0;
+  }
+  #top-cancel-btn {
+    border: none;
+    background-color: white;
+    color: #7E7E7F;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border: none;
+  }
+  .task-title-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .task-name-label {
+    font-weight: 500;
+    font-size: 16px;
+    color: #282829;
+  }
+  #task-name {
+    font-weight: 500;
+    font-size: 14px;
+    color: #A3A3A3;
+    border-radius: 8px;
+    padding: 10px 14px;
+    border: 1px solid #CECECE;
+  }
+  .task-description-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .task-detail-label {
+    font-weight: 500;
+    font-size: 16px;
+    color: #282829;
+  }
+  #task-detail {
+    font-weight: 500;
+    font-size: 14px;
+    color: #A3A3A3;
+    height: 108px;
+    border-radius: 8px;
+    padding: 10px 14px;
+    border: 1px solid #CECECE;
+  }
+  .task-date-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .task-date-label {
+    font-weight: 500;
+    font-size: 16px;
+    color: #282829;
+  }
+  #task-date {
+    font-weight: 500;
+    font-size: 14px;
+    color: #A3A3A3;
+    border-radius: 8px;
+    padding: 10px 14px;
+    border: 1px solid #CECECE;
+  }
+  .task-btn-field {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+  }
+  #cancel-btn {
+    border: 1px solid #D0D5DD;
+    background-color: white;
+    color: #7E7E7F;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  #add-task-btn {
+    background-color: #0C39C7;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+  }

@@ -1,0 +1,34 @@
+.main-task-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .active-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .completed-list-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 32px;
+}
+  .completed-title {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .task-heading {
+    font-weight: 600;
+    font-size: 18px;
+    color: #8B8B8B;
+  }
+  #clear-completed-btn {
+    background-color: white;
+    border: 1px solid #0C39C7;
+    color: #0C39C7;
+    font-size: 14px;
+    font-weight: 600;
+  }

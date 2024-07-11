@@ -1,0 +1,75 @@
+.task-box {
+    max-width: 1312px;
+    width: 100%;
+    border: 1px solid #CECECE;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 24px 24px;
+    gap: 14px;
+  }
+  #task-status {
+    appearance: none;
+    border: 1px solid #CECECE;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-bottom: 60px;
+  }
+  #task-status:checked {
+    background-image: url(../../assets/tick.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+  }
+  #task-status:hover {
+    cursor: pointer;
+  }
+  .task-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 1218px;
+    width: 100%;
+  }
+  .task-title-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .task-title-content {
+    display: flex;
+    gap: 8px;
+    max-width: 246px;
+    width: 100%;
+    align-items: center;
+  }
+  .task-title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .task-btn {
+    display: flex;
+    gap: 8px;
+  }
+  #delete-btn, #edit-btn {
+    background-color: white;
+  }
+  .task-description {
+    margin: 0;
+    font-size: 14px;
+    color: #475467;
+    font-weight: 400;
+  }
+  .task-due-date-container {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  .task-due-date {
+    font-weight: 600;
+    font-size: 14px;
+    color: #667085;
+    margin: 0;
+  }

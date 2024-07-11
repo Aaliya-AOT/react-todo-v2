@@ -1,0 +1,76 @@
+.task-filter {
+  max-width: 1312px;
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  margin: auto;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.search-task {
+  max-width: 578px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  padding: 10px 14px;
+  border: 1px solid #CECECE;
+}
+
+#search-bar {
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: #939393;
+  width: 100%;
+}
+
+.sort-task {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  align-items: center;
+  max-width: 223px;
+  width: 100%;
+}
+
+.sort-label {
+  color: #09174A;
+  font-weight: 600;
+  font-size: 14px;
+  max-width: 62px;
+  width: 100%;
+}
+
+.sort-dropdown-container {
+  position: relative;
+  display: inline-block;
+  max-width: 156px;
+  width: 100%;
+}
+
+.sort-dropdown {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px 14px;
+  border: 1px solid #CECECE;
+  color: #282829;
+  font-weight: 600;
+  font-size: 16px;
+  background: url('../../assets/arrow.svg') no-repeat right 14px center;
+  background-color: white;
+  cursor: pointer;
+}
+
+.sort-dropdown option {
+  background-color: white;
+  color: #282829;
+  font-weight: 600;
+  font-size: 16px;
+}
+  

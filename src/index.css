@@ -1,0 +1,32 @@
+body{
+  font-family: 'Montserrat';
+  padding: 32px 64px;
+  margin: auto;
+}
+button{
+  font-family: inherit;
+  padding: 10px 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+}
+button:hover{
+  cursor: pointer;
+}
+input{
+  font-family: inherit;
+}
+input:focus{
+  outline: none;
+}
+select{
+  font-family: inherit;
+}
+select:focus{
+  outline: none;
+}
+textarea{
+  font-family: inherit;
+}
