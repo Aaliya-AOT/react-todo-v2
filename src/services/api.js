@@ -1,4 +1,5 @@
-export const BASE_URL ="http://localhost:8080"
+// export const BASE_URL ="http://localhost:8080"
+export const BASE_URL = "https://todo-backend-3gxa.onrender.com"
 
 export const CREATE_API = `${BASE_URL}/addTask`
 export const DISPLAY_API = `${BASE_URL}/displayTask`
