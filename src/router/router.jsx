@@ -4,7 +4,7 @@ import Index from '../pages/index';
 
 function AppRouter(){
     return(
-        <Router>
+        <Router basename='/react-todo-v2'>
             <Routes>
                 <Route path="/" element={<Index />} />
             </Routes>
